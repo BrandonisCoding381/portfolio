@@ -1,0 +1,60 @@
+#navbar{
+    background-color: #fac83e;
+    display: flex;
+    justify-content: flex-end; 
+    border: 0.8px solid black;
+    height: 45px;
+  }
+  #navbar > a{
+    margin-left: 1rem;
+    font-size: 24px;
+    box-sizing: border-box;
+    font-style: italic;
+    margin-top: 0.49rem;
+    }
+  html{
+    background-color: #e6c66e;
+    scroll-behavior: smooth;
+  }
+  #welcome-section{
+    font-size: 25px;
+    text-align: center;
+    color: #60305d;
+    margin-top: 80px;
+    margin-bottom: 250px;
+  }
+  .heading{
+    text-align: center;
+    font-size: 32px;
+    text-decoration: underline; 
+    color: #60305d;
+    font-family: serif;
+  }
+  .heading2{
+    text-align: center;
+    font-size: 32px;
+    text-decoration: underline; 
+    color: #60305d;
+    font-family: serif;
+  }
+  
+  .gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .gallery-child{
+    width: 25%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+  }
+  
+  .gallery img{
+      width:  200px;
+      height: 200px;
+      object-fit: contain;
+  }
+  
