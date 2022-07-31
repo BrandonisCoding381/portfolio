@@ -4,6 +4,9 @@
     justify-content: flex-end; 
     border: 0.8px solid black;
     height: 45px;
+    position: sticky;
+    top: 0;
+    font-size: 20px;
   }
   #navbar > a{
     margin-left: 1rem;
@@ -57,4 +60,18 @@
       height: 250px;
       object-fit: contain;
   }
-  
+  .gallery a{
+    font-size: 25px;
+    color: #60305d;
+  }
+  .Info{
+    text-align: center;
+    font-size: 22px;
+    color: #60305d;
+    font-family: serif;
+    margin-bottom: 420px;
+  }
+  section > p{
+    padding-top: 50px;
+    margin-bottom: 70px;
+  }
